@@ -1,0 +1,8 @@
+div(class="login-form")
+  h1 Login til mit site 
+  form(action="/auth", method="post")
+    label username
+      input(type="text", name="username", placeholder="Username", required)
+    label password
+      input(type="password", name="password", required)
+    button(type="submit") Login
